@@ -16,7 +16,9 @@ function Chat() {
                     </h4>
                 </div>
                 <div className = "chat__headerRight">
+                    <p>
                     <InfoOutlinedIcon/> Details
+                    </p>
                 </div>
             
             </div>
