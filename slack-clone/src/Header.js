@@ -14,7 +14,7 @@ function Header() {
         <div className='header'>
              <div className='header_left'>
              <Avatar className="header_avatar"
-              alt={user?.displayname}
+              alt={user.displayname}
               src={user?.photoURL}
              />
              <AccessTimeIcon/>

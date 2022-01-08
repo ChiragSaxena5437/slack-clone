@@ -39,8 +39,11 @@ function Sidebar()
                     <h2>PenLabs</h2>
                     <h3>
                         <FiberManualRecordIcon />
-                        Chirag Saxena
+                        
+                        <p>{user.displayName}</p>
                     </h3>
+                    
+                        <p>{user.email}</p>
                 </div>
                     <CreateIcon />
                 </div>

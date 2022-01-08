@@ -8,7 +8,9 @@ import Login from "./Login"
 import { useStateValue } from './StateProvider';
 
 function App() {
+  
   const [{user}, dispatch] = useStateValue();
+  console.log(user)
   return (
     <div className="app">
       <Router>
@@ -18,6 +20,7 @@ function App() {
           
         <>
         <Header/>
+        
         <div className="app__body">
           <Sidebar />
           <Switch>
